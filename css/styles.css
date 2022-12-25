@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --color-red: #f03c42;
+  --color-blue: #222374;
+  --color-grey: #cccccc;
+  --color-black: #000000;
+  --color-white: #ffffff;
+}
+
+* {
+  font-family: "Open-Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: unset;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header{
+  background-color: var(--color-red);
+  color: var(--color-white);
+  height: 100px;
+  padding: 0 15px;
+}
+
+header p{
+font-size: 18px;
+font-weight: 700;
+}
+
+.header-content{
+height: 100%;
+width: 960px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-content: center;
+}
+
+.header-ig{
+    display: flex;
+    align-items: center;
+    }
+
+.header-ig a{
+margin-left: 10px;
+    }
+
+#about{
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    padding: 20px;
+}
+
+.about-card{
+    background-color: var(--color-grey);
+    color: var(--color-black);
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#classes{
+    padding: 20px;
+}
+
+.card-title{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#classes h2{
+margin: 20px 0;
+}
+
+#classes h2{
+    margin-bottom: 40px;
+    color: var(--color-red);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.classes-card{
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border-radius: 8px;
+    margin: 20px 20px 0 20px;
+    padding: 20px;
+}
+
+#classes p{
+padding-top: 20px;
+}
+
+footer{
+    background-color: var(--color-black);
+    color: var(--color-white);
+    margin-top: 20px;
+    padding: 0 15px;
+}
+
+.footer-content {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 60px 0;
+}
+
+.footer-social {
+    margin-bottom: 30px;
+        }
+
+.footer-social a {
+margin-left: 10px;
+    }
+
+.footer-ig, .footer-tt{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    }
